@@ -68,8 +68,8 @@ inquirer
     const chosenLicenseBadge = licenseBadge[data.license];
     console.log(data);
     var readMe = `# ${data.title} \n ${chosenLicenseBadge} \n ## Table of Contents \n
-     \n 1. [Description](##description) \n 2. [Installation](##installation) \n 3. [Usage](##usage) \n 4. [License](##license)
-     \n 5. [Contributing](##contributing) \n 6. [Tests](##tests) \n 7. [Username](##username) \n 8. [Email](##email)
+     \n 1. [Description](#description) \n 2. [Installation](#installation) \n 3. [Usage](#usage) \n 4. [License](#license)
+     \n 5. [Contributing](#contributing) \n 6. [Tests](#tests) \n 7. [Username](#username) \n 8. [Email](#email)
      \n ## Description \n ${data.description} \n ## Installation \n ${data.installation} \n ## Usage \n ${data.usage}
      \n ## License \n ${data.license} \n ## Contributing \n ${data.contributing} \n ## Tests \n ${data.tests}
      \n ## Username \n ${data.username} \n ## Email \n ${data.email}`;
