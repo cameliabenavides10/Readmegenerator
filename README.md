@@ -11,7 +11,6 @@
  5. [Contributing](#contributing) 
  6. [Tests](#tests) 
  7. [Username](#username) 
- 8. [Email](#email)
      
  ## Description 
 This project a professional README generator. It can help the user create a readme by answering prompts without worrying about typing out the mark down syntax, as this is done automatically with the use of this project. 
